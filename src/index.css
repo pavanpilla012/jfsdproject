@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+button {
+  @apply bg-primary-red text-white hover:bg-black hover:text-primary-red;
+}
+
+a {
+  @apply text-primary-red hover:text-white;
+}
+.modal-background {
+  @apply fixed inset-0 flex items-center justify-center bg-opacity-50;
+}
